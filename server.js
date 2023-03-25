@@ -5,7 +5,7 @@ const postsRoute = require('./routes/Posts');
 app.use('/posts', postsRoute)
 
 app.listen(4000, () => {
-    console.log('Listening on port 4000')
+    console.log('Listenning on port 4000')
 })
 
 /*//POSTS
@@ -80,6 +80,3 @@ app.delete('/stories', (req, res) => {
 })*/
 
 
-app.listen(4000, () => {
-    console.log('Listening on port 4000')
-})
